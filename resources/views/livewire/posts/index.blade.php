@@ -41,12 +41,7 @@
         @endforeach
         
 
-        <!-- @if($post->title !== 'asd')         
-            <td><a href="#" data-id="{{ $post->title }}">Approve/Reject<a></td>         
-        @else
-            <td>{{ $post->content }}</td>        
-        @endif -->
-
+      
 
     </div>
     <div class="d-flex justify-content-end mt-3">{{ $posts->links() }}</div>

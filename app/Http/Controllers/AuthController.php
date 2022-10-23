@@ -14,14 +14,14 @@ class AuthController extends Controller
     //cher angel functions
     public function loginForm() {
         if(auth()->check()){
-            return redirect('/dashboard');
+            return redirect('/home');
         }
         return view('authentication.login');
     }
 
     public function registerForm() {
         if(auth()->check()){
-            return redirect('/dashboard');
+            return redirect('/home');
         }
         return view('authentication.register');
     }
@@ -88,7 +88,7 @@ class AuthController extends Controller
         if(!$login) {
             return back()->with('error','Invalid user credentials.');
         }
-        return redirect('/dashboard');
+        return redirect('/home');
         
     }
 

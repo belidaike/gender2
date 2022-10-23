@@ -1,6 +1,6 @@
 <nav id="navbar-box" class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <h1><a id="navbar-links" class="navbar-brand" href="{{url('/')}}">Questionable</a></h1>
+        <h1><a id="navbar-linkss" class="navbar-brand" href="{{url('/')}}">Questionable</a></h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,6 +46,14 @@
 #navbar-links{
     color: #ffa31a;
     font-weight: bold;
+}
+#navbar-linkss{
+    color: #ffa31a;
+    font-weight: bold;
+}
+#navbar-links:hover{
+    background-color: white;
+    color: black;
 }
 
 .nav-link{

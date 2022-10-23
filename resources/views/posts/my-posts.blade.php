@@ -31,18 +31,9 @@
 
     <style>
 
-
-        .btn {
-        /* margin-left: 40%;
-        margin-right: 40%; */
-        /* background-color: rgb(236, 179, 236); */
-    }
-
     #top{
         margin-top: 30px;
-        /* font-family: 'Lavishly Yours', cursive;
-        font-weight: bold;
-        font-size: 50px; */
+
     }
     
     #top-title{

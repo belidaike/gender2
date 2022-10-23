@@ -14,7 +14,7 @@
 
 
 
-<h1 class="text-center text-white">Gender</h1>
+<h1 class="text-center text-white">Users</h1>
 
 
   <div class="row">
@@ -25,13 +25,15 @@
                 @if($user['gender'] == 'male')
 
                   <div class="male">
-                    <div>{{ $user['fname'] }} {{ $user['gender'] }}</div>
+                    <div>{{ $user['fname'] }}</div>
+                    <div>{{ $user['gender'] }}</div>
                   </div>
 
                   @else
 
                   <div class="female">
-                    <div>{{ $user['fname'] }} {{ $user['gender'] }}</div>
+                    <div>{{ $user['fname'] }}</div>
+                    <div>{{ $user['gender'] }}</div>
                   </div>
 
                   @endif
@@ -64,6 +66,7 @@
   .female{
     background-color: #FFB1CB;
     padding: 10px;
+    color: black;
     border-radius: 50%;
   }
 
